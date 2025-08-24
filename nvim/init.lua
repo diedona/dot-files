@@ -389,6 +389,8 @@ require("lazy").setup({
 				-- ts_ls = {},
 				--
 
+				-- new languages here!!!
+
 				lua_ls = {
 					-- cmd = { ... },
 					-- filetypes = { ... },
