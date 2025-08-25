@@ -1,8 +1,7 @@
-
-alias ll "ls -alF"
+# alias ll "ls -alF"
 alias la "ls -A"
 alias l "ls -CF"
-alias cls "clear"
+# alias cls clear
 
 abbr -a reload 'source ~/.config/fish/config.fish'
 

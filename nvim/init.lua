@@ -375,6 +375,9 @@ require("lazy").setup({
 						},
 					},
 				},
+
+				bashls = {},
+				fish_lsp = {},
 			}
 
 			-- Ensure the servers and tools above are installed
@@ -393,6 +396,7 @@ require("lazy").setup({
 			local ensure_installed = vim.tbl_keys(servers or {})
 			vim.list_extend(ensure_installed, {
 				"stylua", -- Used to format Lua code
+				"beautysh",
 			})
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
